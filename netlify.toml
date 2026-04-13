@@ -1,0 +1,7 @@
+[build]
+  command = "cd frontend && yarn build"
+  publish = "frontend/build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
